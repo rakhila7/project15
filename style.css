@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
+body {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 124px;
+}
+
+body .main {
+    width: 365px;
+    height: 93px;
+    margin-top: 91px;
+    margin-bottom: 18px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    color: black;
+}
+
+body .main p {
+    margin: 0;
+}
+
+body .all {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+body .all .text {
+    overflow: hidden;
+    margin-right: 190px;
+    font-size: 24px;
+    max-width: 662px;
+    max-height: 374px;
+}
+
+body .all .first-img {
+    position: relative;
+}
+
+body .all .first-img img:first-child {
+    max-width: 314px;
+}
+
+body .all .first-img img:last-child {
+    position: absolute;
+    top: 284px;
+    left: -22px;
+    z-index: -2;
+    max-width: 346px;
+}
+
+@media (max-width: 834px) {
+    body {
+        padding-left: 72px;
+    }
+    body .main {
+        width: 211px;
+        height: 53px;
+        margin-top: 56px;
+        margin-bottom: 10px;
+        font-size: 32px;
+    }
+    body .all {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    body .all .text {
+        overflow: hidden;
+        max-height: 216px;
+        margin-right: 110px;
+        font-size: 14px;
+        max-width: 383px;
+    }
+    body .all .first-img img:first-child {
+        max-width: 181px;
+    }
+    body .all .first-img img:last-child {
+        max-width: 211px;
+        left: -20px;
+        top: 165px;
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        padding-left: 36px;
+    }
+    body .main {
+        width: 170px;
+        height: 43px;
+        margin-top: 56px;
+        margin-bottom: 8px;
+        font-size: 26px;
+    }
+    body .all {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    body .all .text {
+        max-height: 175px;
+        margin-right: 0;
+        font-size: 12px;
+        max-width: 308px;
+        /* margin-bottom: 0; */
+    }
+    body .all .first-img {
+        margin: auto;
+        margin-top: 15px;
+    }
+    body .all .first-img img:first-child {
+        max-width: 146px;
+    }
+    body .all .first-img img:last-child {
+        max-width: 170px;
+        left: -14px;
+        top: 131px;
+    }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap%22");
+.footer {
+    font-family: 'Roboto', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 45px;
+}
+
+.footer .second-img {
+    position: relative;
+    margin-right: 37px;
+    width: 232px;
+    height: 203px;
+}
+
+.footer .second-img img:last-child {
+    position: absolute;
+    left: 31px;
+    bottom: -13px;
+    z-index: -2;
+    width: 189px;
+}
+
+.footer .one {
+    width: 150px;
+    margin-left: 95px;
+}
+
+.footer .one p:first-of-type {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.footer .one p:last-of-type {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media (max-width: 834px) {
+    .footer .one {
+        width: 86px;
+        margin-left: 0;
+        margin-right: 55px;
+    }
+    .footer .second-img {
+        display: none;
+    }
+    .footer .one p:first-of-type {
+        font-size: 15px;
+    }
+    .footer .one p:last-of-type {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        padding-left: 36px;
+    }
+    .footer {
+        margin-bottom: 45px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .footer .second-img {
+        display: none;
+    }
+    .footer .one {
+        width: 86px;
+    }
+    .footer .one p:first-of-type {
+        font-size: 12px;
+    }
+    .footer .one p:last-of-type {
+        font-size: 10px;
+    }
+}
